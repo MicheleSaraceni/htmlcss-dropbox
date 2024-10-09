@@ -29,6 +29,10 @@
     --color-logo-yellow: #ffd830;
   }
 
+.bg-lightb {
+    background-color: var(--color-light-blue);
+}
+
 
 /*Position Utility*/
 
@@ -53,6 +57,13 @@
 
 .p-top {
     padding-top: 90px;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--color-blue);
+    padding: 5px 20px;
+    color: var(--color-white);
 }
 
 /*Flex*/
@@ -96,6 +107,12 @@ ul {
 nav>ul {
     padding:15px;
 }
+
+a {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
 footer {
     background-color: var(--color-dark);
     color: var(--color-white);
