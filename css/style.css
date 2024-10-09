@@ -36,12 +36,23 @@
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container-small{
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
+}
+
+.p-top {
+    padding-top: 90px;
 }
 
 /*Flex*/
@@ -80,4 +91,14 @@ header {
 ul {
     list-style: none;
     gap: 30px;
+}
+
+nav>ul {
+    padding:15px;
+}
+footer {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 10px 10px;
+    width: 100%;
 }
