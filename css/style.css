@@ -62,7 +62,7 @@
 }
 
 .container-small{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     width: 100%;
 }
@@ -98,6 +98,14 @@
     width: 70%;
 }
 
+.w-100 {
+    width: 100%;
+}
+
+.gap {
+    gap: 40px 40px;
+}
+
 /*Flex*/
 .d-flex {
     display: flex;
@@ -105,6 +113,10 @@
 
 .space-b {
     justify-content: space-between;
+}
+
+.space-a {
+    justify-content: space-around;
 }
 
 .center {
@@ -182,6 +194,23 @@ section a .button {
 #plans {
     margin-top: 100px;
 }
+
+.col {
+    border:1px solid var(--color-gray);
+    width: calc((100% - 80px) / 3);
+}
+
+hr {
+    width: 20%;
+}
+
+
+
+
+
+
+
+
 
 footer {
     background-color: var(--color-dark);
