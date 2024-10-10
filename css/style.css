@@ -147,6 +147,10 @@
     display: flex;
 }
 
+.jc-end {
+    justify-content: end;
+}
+
 .space-b {
     justify-content: space-between;
 }
@@ -179,13 +183,23 @@ body{
       "wdth" 100;
   }
 
+ul {
+    list-style: none;
+    gap: 30px;
+}
+
+li {
+    padding: 5px 0px;
+}
+
 a {
     text-decoration: none;
 }
 
 section {
-    padding-top: 60px;
+    padding: 60px 0;
 }
+
 /*Header*/
 
 header {
@@ -220,16 +234,7 @@ header {
 
 #jumbo h1 {
     font-size: 3.5em;
-    margin: 60px 0;
-}
-
-ul {
-    list-style: none;
-    gap: 30px;
-}
-
-li {
-    padding: 5px 0px;
+    padding-bottom: 60px;
 }
 
 section a .button {
@@ -263,7 +268,7 @@ img.p-absolute {
     width: calc((100% - 80px) / 3);
 }
 
-hr {
+#plans hr {
     width: 20%;
 }
 
@@ -329,6 +334,28 @@ img {
     color: var(--color-logo-red);
 }
 
+#c-t-a .w-50 {
+    padding: 10px 0;
+}
+
+/*faq*/
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#faq i {
+    padding-left: 20px;
+}
+
+#faq h1, .dropdown, .dropdown-content {
+
+    padding: 20px;
+}
 
 /*footer*/
 
