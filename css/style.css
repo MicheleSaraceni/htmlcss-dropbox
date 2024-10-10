@@ -79,6 +79,11 @@
     text-decoration: none;
 }
 
+.btn-w {
+    background-color: var(--color-white);
+    color: var(--color-dark);
+}
+
 .no-border {
     border: none;
 }
@@ -101,6 +106,10 @@
 
 .w-30 {
     width: 30%;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .w-70 {
@@ -289,12 +298,37 @@ hr {
     height: 500px;
 }
 
+#partner .btn-w {
+    border: 1px solid var(--color-dark);
+}
+
 /*Dropbox Business*/
 
 img {
         width: 100%;
         display:block;
     }
+
+/*Customers*/
+
+#customers h3 {
+    font-size: 35px;
+    padding: 30px 0;
+}
+
+#customers a {
+    text-decoration: underline;
+    color: blue;
+
+}
+
+/*Call to action*/
+
+#c-t-a h1 {
+    font-size: 30px;
+    color: var(--color-logo-red);
+}
+
 
 /*footer*/
 
