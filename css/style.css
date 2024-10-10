@@ -174,7 +174,9 @@ a {
     text-decoration: none;
 }
 
-
+section {
+    padding-top: 60px;
+}
 /*Header*/
 
 header {
@@ -245,7 +247,7 @@ img.p-absolute {
 /*plans*/
 
 #plans {
-    margin-top: 140px;
+    padding-top: 100px;
 }
 
 .col {
@@ -287,11 +289,12 @@ hr {
     height: 500px;
 }
 
+/*Dropbox Business*/
 
-
-
-
-
+img {
+        width: 100%;
+        display:block;
+    }
 
 /*footer*/
 
