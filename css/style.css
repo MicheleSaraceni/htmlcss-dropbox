@@ -74,8 +74,9 @@
 .button {
     display: inline-block;
     background-color: var(--color-blue);
-    padding: 5px 20px;
+    padding: 5px 15px;
     color: var(--color-white);
+    text-decoration: none;
 }
 
 .no-border {
@@ -84,6 +85,14 @@
 
 .b-bottom {
     border-bottom: 3px solid none;
+}
+
+.bb-gray {
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.border {
+    border:1px solid var(--color-gray);
 }
 
 .w-20 {
@@ -100,6 +109,24 @@
 
 .w-100 {
     width: 100%;
+}
+
+/*  
+#plans ul, hr, .button, h3, strong, hr, em {
+    margin: 30px;
+}
+
+ SOSTITUITO DA:*/
+.m-30 {
+    margin: 30px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
 }
 
 .gap {
@@ -128,7 +155,10 @@
     flex-wrap: wrap;
 }
 
-/*body css*/
+.block {
+    display: block;
+}
+/*body*/
 
 body{
     font-family: "Open Sans", sans-serif;
@@ -138,6 +168,12 @@ body{
     font-variation-settings:
       "wdth" 100;
   }
+
+a {
+    text-decoration: none;
+}
+
+/*Header*/
 
 header {
     background-color: var(--color-white);
@@ -158,9 +194,12 @@ header {
     border-bottom: 2px solid var(--color-gray);
 }
 
-a.button {
+#header a.button {
+    color: var(--color-white);
     margin-bottom: 10px;
 }
+
+/*jumbo*/
 
 #jumbo h1 {
     font-size: 3.5em;
@@ -176,8 +215,7 @@ li {
     padding: 5px 0px;
 }
 
-a {
-    text-decoration: none;
+#header a {
     color: var(--color-dark);
 }
 
@@ -192,12 +230,23 @@ section a .button {
     margin-bottom: 15px;
 }
 
+img.p-absolute {
+    top:0;
+    left:0;
+    width: 110%;
+}
+
+#jumbo a.button {
+    margin: 20px 0;
+}
+
+/*plans*/
+
 #plans {
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .col {
-    border:1px solid var(--color-gray);
     width: calc((100% - 80px) / 3);
 }
 
@@ -205,6 +254,23 @@ hr {
     width: 20%;
 }
 
+.blue {
+    text-decoration:underline;
+    margin-left: 5px;
+    color: blue;
+}
+
+#plans span.block {
+    margin-top: 30px;
+}
+
+#plans h1 {
+    font-size: 30px;
+}
+
+#plans a.button {
+    font-size: 12 px;
+}
 
 
 
@@ -212,6 +278,8 @@ hr {
 
 
 
+
+/*footer*/
 
 footer {
     background-color: var(--color-dark);
@@ -240,13 +308,4 @@ select {
     margin: 50px 0 30px;
 }
 
-img.p-absolute {
-    top:0;
-    left:0;
-    width: 110%;
-}
-
-#jumbo a.button {
-    margin: 20px 0;
-}
 
