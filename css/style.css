@@ -158,6 +158,7 @@
 .block {
     display: block;
 }
+
 /*body*/
 
 body{
@@ -172,6 +173,7 @@ body{
 a {
     text-decoration: none;
 }
+
 
 /*Header*/
 
@@ -199,6 +201,10 @@ header {
     margin-bottom: 10px;
 }
 
+#header a {
+    color: var(--color-dark);
+}
+
 /*jumbo*/
 
 #jumbo h1 {
@@ -213,10 +219,6 @@ ul {
 
 li {
     padding: 5px 0px;
-}
-
-#header a {
-    color: var(--color-dark);
 }
 
 section a .button {
@@ -272,6 +274,18 @@ hr {
     font-size: 12 px;
 }
 
+/*Partner*/
+
+#partner {
+    padding-top: 60px;
+}
+
+#partner .w-70 {
+    background-image: url(../img/partner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
 
 
 
