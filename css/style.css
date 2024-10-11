@@ -258,6 +258,10 @@ img.p-absolute {
     margin: 20px 0;
 }
 
+#jumbo i {
+    color: var(--color-dark);
+}
+
 /*plans*/
 
 #plans {
